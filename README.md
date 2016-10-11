@@ -24,4 +24,4 @@ Rename images in a directory:
 
 There is a TESTER.JPG under /test directory. You should be able to rename it to 20161009_145859.jpg by running:
 
-    $ canonicalify test/TESTER.JPG test/
+    $ canonicalify test/TESTER.JPG
