@@ -1,14 +1,14 @@
 # canonicalify-images
 
-Auto-rename image files to YYYYMMDD_HHMMSS format according their shooting time in EXIF. For example a JPG image shooted on 12th Oct 2016 at 22:30:23 is renamed to:
-
-    20161012_223023.jpg
+Auto-rename image files to YYYYMMDD_HHMMSS format according their shooting time in EXIF. For example a JPG image shooted on 12th Oct 2016 at 22:30:23 is renamed to `20161012_223023.jpg`.
 
 ## Install
 
-    $ npm install canonicalify-images -g
+    $ git clone https://github.com/axelpale/canonicalify-images.git
+    $ cd canonicalify-images
+    $ npm install -g
 
-This provides global command `canonicalify`.
+This provides global command `canonicalify`. Uninstall with `npm uninstall -g`.
 
 ## Usage
 
